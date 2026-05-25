@@ -182,7 +182,7 @@ Overall, the EDA phase provided valuable operational insights, identified delive
 
 Data cleaning and transformation were performed to prepare the logistics dataset for analysis, visualization, clustering, and predictive modeling. The main objective was to improve data quality by handling missing values, correcting formatting issues, and creating new operational variables related to delivery performance.
 
-![Cleaning](..\images\2.png)
+![Cleaning](../images/2.png)
 
 
 The preprocessing process was carried out using Python in Google Colab and additional transformations in Power Query within Power BI.
