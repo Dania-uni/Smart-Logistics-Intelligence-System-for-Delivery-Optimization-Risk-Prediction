@@ -852,3 +852,12 @@ Overall, the project demonstrates how BI and AI techniques can transform raw ope
 
 ---
 # **References**
+
+https://uopstdedu-my.sharepoint.com/:x:/g/personal/202111418_uopstd_edu_jo/IQDCXU4oadoIQo08YdnYDIfBAdXzct3XHkRl2gX_Zj3KU9Y?e=SfPOiJ
+
+https://uopstdedu-my.sharepoint.com/:x:/g/personal/202111418_uopstd_edu_jo/IQBpcANI0Wa1T6kZcC_5ilKGAV3AVMqnkWeBw4Rze8rbLE8?e=KqbCOh
+
+https://uopstdedu-my.sharepoint.com/:p:/g/personal/202111418_uopstd_edu_jo/IQC1auUW6_o2SY_W1UjGKPUHAcbojueoouWTQQqVz_DExbM?e=ViQXLj
+
+https://uopstdedu-my.sharepoint.com/:u:/g/personal/202111418_uopstd_edu_jo/IQAiIvYspHbBTYuarpSiOvpPAVaLMhVYnjEpGk8N-Gd8PAw?e=pdpgsx
+
