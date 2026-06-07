@@ -16,53 +16,31 @@ Second Semester, 2026/2027
 
 ---
 
-Contents
+# Table Contents
 
-[**Abstract** 3](#_Toc230131607)
-
-[**Acknowledgment** 4](#_Toc230131608)
-
-[**Business Intelligence Project Description and Objectives** 5](#_Toc230131609)
-
-[**Project Description and Goal** 5](#_Toc230131610)
-
-[**Project Objectives** 5](#_Toc230131611)
-
-[**Data Research and Acquiring Effort** 6](#_Toc230131612)
-
-[**Data Description and Understanding** 7](#_Toc230131613)
-
-[**Data Dictionary** 7](#_Toc230131614)
-
-[**Exploratory Data Analysis (EDA)** 9](#_Toc230131615)
-
-[**Data Primary Cleaning and Transformation** 10](#_Toc230131616)
-
-[**Data Visualization and Insights** 12](#_Toc230131617)
-
-[**Advanced Analytics and AI Modeling** 24](#_Toc230131618)
-
-[Supervised Models 24](#_Toc230131619)
-
-[Clustering Analysis 24](#_Toc230131620)
-
-[Prediction Model 25](#_Toc230131621)
-
-[Logistic Regression 26](#_Toc230131622)
-
-[Random Forest 27](#_Toc230131623)
-
-[Model Comparison 28](#_Toc230131624)
-
-[Clustering 29](#_Toc230131625)
-
-[**Tools Research and Selection Effort** 32](#_Toc230131626)
-
-[**Project Deployment Effort - Use Case** 33](#_Toc230131627)
-
-[**Results** 35](#_Toc230131628)
-
-[**References** 35](#_Toc230131629)
+- [Abstract](#abstract)
+- [Acknowledgment](#acknowledgment)
+- [Business Intelligence Project Description and Objectives](#business-intelligence-project-description-and-objectives)
+  - [Project Description and Goal](#project-description-and-goal)
+  - [Project Objectives](#project-objectives)
+- [Data Research and Acquiring Effort](#data-research-and-acquiring-effort)
+- [Data Description and Understanding](#data-description-and-understanding)
+  - [Data Dictionary](#data-dictionary)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Data Primary Cleaning and Transformation](#data-primary-cleaning-and-transformation)
+- [Data Visualization and Insights](#data-visualization-and-insights)
+- [Advanced Analytics and AI Modeling](#advanced-analytics-and-ai-modeling)
+  - [Supervised Models](#supervised-models)
+  - [Clustering Analysis](#clustering-analysis)
+  - [Prediction Model](#prediction-model)
+    - [Logistic Regression](#logistic-regression)
+    - [Random Forest](#random-forest)
+    - [Model Comparison](#model-comparison)
+  - [Clustering](#clustering)
+- [Tools Research and Selection Effort](#tools-research-and-selection-effort)
+- [Project Deployment Effort – Use Case](#project-deployment-effort--use-case)
+- [Results](#results)
+- [References](#references)
 
 
 ---
