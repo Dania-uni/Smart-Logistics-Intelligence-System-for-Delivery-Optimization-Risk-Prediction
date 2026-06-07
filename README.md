@@ -13,6 +13,7 @@
 </td>
 </tr>
 </table>
+
 ## Project Overview
 
 Fast Man Company handles thousands of deliveries daily, making it difficult to monitor delays, returns, and operational risks efficiently.
@@ -50,7 +51,7 @@ The project used real operational data provided by Fast Man Company.
 
 ### Data Cleaning & Transformation
 
-![Data Cleaning](../images/2.png)
+![Data Cleaning](images/2.png)
 
 Main preprocessing tasks:
 
@@ -64,7 +65,7 @@ Main preprocessing tasks:
 
 ## Operations Performance Dashboard
 
-![Operations Dashboard](../images/3.png)
+![Operations Dashboard](images/3.png)
 
 ### Key Insights
 
@@ -82,7 +83,7 @@ Provides management with a complete operational overview and supports performanc
 
 ## Delay Analysis Dashboard
 
-![Delay Analysis](../images/4.png)
+![Delay Analysis](images/4.png)
 
 ### Key Insights
 
@@ -99,7 +100,7 @@ Helps identify bottlenecks and reduce delayed deliveries.
 
 ## Route Optimization Dashboard
 
-![Route Optimization](../images/5.png)
+![Route Optimization](images/5.png)
 
 ### Key Insights
 
@@ -115,7 +116,7 @@ Supports route optimization and faster deliveries.
 
 ## Return Analysis Dashboard
 
-![Return Dashboard](../images/6.png)
+![Return Dashboard](/6.png)
 
 ### Key Insights
 
@@ -132,7 +133,7 @@ Reduces failed deliveries and improves customer satisfaction.
 
 ## Risk Analysis Dashboard
 
-![Risk Dashboard](../images/7.png)
+![Risk Dashboard](/7.png)
 
 ### Key Insights
 
@@ -149,7 +150,7 @@ Supports proactive operational risk management.
 
 ## Financial & Customer Insights
 
-![Financial Dashboard](../images/8.png)
+![Financial Dashboard](images/8.png)
 
 ### Key Insights
 
@@ -166,7 +167,7 @@ Improves profitability and customer relationship management.
 
 ## Predictive Analytics
 
-![Prediction Workflow](../images/9.png)
+![Prediction Workflow](images/9.png)
 
 Machine Learning models were developed to predict delivery outcomes and operational risks.
 
@@ -179,9 +180,9 @@ Machine Learning models were developed to predict delivery outcomes and operatio
 
 ## Logistic Regression Results
 
-![Logistic Regression](../images/10.png)
+![Logistic Regression](images/10.png)
 
-![Logistic Metrics](../images/11.png)
+![Logistic Metrics](images/11.png)
 
 ### Performance
 
@@ -193,9 +194,9 @@ Machine Learning models were developed to predict delivery outcomes and operatio
 
 ## Random Forest Results
 
-![Random Forest](../images/12.png)
+![Random Forest](images/12.png)
 
-![Random Forest Metrics](../images/13.png)
+![Random Forest Metrics](images/13.png)
 
 ### Performance
 
@@ -211,7 +212,7 @@ Machine Learning models were developed to predict delivery outcomes and operatio
 
 ## Clustering Analysis
 
-![Clustering Workflow](../images/14.png)
+![Clustering Workflow](images/14.png)
 
 K-Means clustering segmented deliveries into three operational groups.
 
@@ -236,9 +237,9 @@ K-Means clustering segmented deliveries into three operational groups.
 
 ## Cluster Visualization
 
-![Cluster Distribution](../images/15.png)
+![Cluster Distribution](images/15.png)
 
-![Cluster Analysis](../images/16.png)
+![Cluster Analysis](images/16.png)
 
 The clustering model successfully identified different delivery behaviors and risk levels.
 
