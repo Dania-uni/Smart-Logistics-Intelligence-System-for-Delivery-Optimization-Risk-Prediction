@@ -40,6 +40,8 @@ The goal was to develop an intelligent system capable of monitoring, predicting,
 
 The project used real operational data provided by Fast Man Company.
 
+![Table](images/1.png)
+
 ### Dataset Includes
 
 - Shipment records
