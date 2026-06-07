@@ -1,349 +1,264 @@
-# Business Intelligence Graduation Project Template
+<table>
+<tr>
+<td width="180">
 
-**University of Petra, Graduation Projects, Business Intelligence, 20252**
+<img src="images/logo.png" width="150">
 
----
+</td>
 
-## How to Use This Template
+<td valign="middle">
 
-This repository serves as a **template for Business Intelligence graduation projects**. Students should **fork this repository** and use it as the foundation for their project work. All project-related files and documentation should be organized within this single repository.
+# Smart Logistics Intelligence System for Delivery Optimization & Risk Prediction
 
-### For Students: Quick Start
-1. **Fork this repository** (Click on **Use this template** then **Create new repository** button in the top right corner) to fork your own copy.
+</td>
+</tr>
+</table>
+## Project Overview
 
-![use-this-template](images/use-template.png)
+Fast Man Company handles thousands of deliveries daily, making it difficult to monitor delays, returns, and operational risks efficiently.
 
-2. **Clone your fork** to your local machine
-3. **Follow the sections below** to structure your project documentation in markdown format
-4. **Push your work** regularly to track progress
-
----
-
-## Project Structure
-
-```
-your-project-name/
-├── README.md                 # Project overview (UPDATE THIS)
-├── docs/                     # All project documentation
-│   └── 01_project_description.md
-├── data/
-│   ├── raw/                  # Original data files
-│   └── processed/            # Cleaned, transformed data
-├── notebooks/                # Jupyter notebooks for analysis
-├── src/                       # Source code (scripts, apps)
-├── dashboards/               # BI tool exports (Tableau, Power BI, etc.)
-├── models/                    # Trained ML/AI models
-├── requirements.txt          # Python dependencies
-└── .gitignore                # Git ignore file
-```
+This project combines Business Intelligence, Data Analytics, and Machine Learning to improve delivery performance and support data-driven decision-making.
 
 ---
 
-## [Documentation Template Sections](docs/documentation.md)
+## Business Challenge
 
-## [**Title Page & Authors**](docs/documentation.md#title-page-authors)
-```
-[Insert Title Here]
+The company experienced:
 
-Authors
-- [Student Name], [Student Number]
-- [Student Name], [Student Number]
+- Delivery delays
+- Returned orders
+- Revenue loss
+- Inefficient route planning
+- Difficulty identifying high-risk deliveries
 
-Supervised by: [Supervisor Name]
+The goal was to develop an intelligent system capable of monitoring, predicting, and optimizing logistics operations.
 
-Course: 307498 – Graduation Project
-Semester: First Semester, 2025/2026
+---
 
-Date: [Submission Date]
-```
+## Data & Preparation
 
-## [Table of Content](docs.domcumentation.md#table-of-content) 
+The project used real operational data provided by Fast Man Company.
 
-- ### [**Abstract**](docs/documentation.md#abstract)
-- ### [**Acknowledgment**](docs/documentation.md#acknowledgment)
-- ### [**Business Intelligence Project Description and Objectives**](docs/documentation.md#business-intelligence-project-description-and-objectives)
-- ### [**Data Research and Acquiring Effort**](docs/documentation.md#data-research-and-acquiring-effort)
-- ### [**Data Description and Understanding**](docs/documentation.md#data-description-and-understanding)
-- ### [**Data Primary Cleaning and Transformation**](docs/documentation.md#data-primary-cleaning-and-transformation)
-- ### [**Data Visualization and Insights**](docs/documentation.md#data-visualization-and-insights)
-- ### [**Dashboard Design & Business Insights**](docs/documentation.md#dashboard-design--business-insights)
-- ### [**Advanced Analytics and AI Modeling**](docs/documentation.md#advanced-analytics-and-ai-modeling)
-- ### [**Tools Research and Selection Effort**](docs/documentation.md#tools-research-and-selection-effort)
-- ### [**Project Deployment Effort – Use Case**](docs/documentation.md#project-deployment-effort-use-case)
-- ### [**Results**](docs/documentation.md#results)
-- ### [**References**](docs/documentation.md#references)
+### Dataset Includes
 
+- Shipment records
+- Customer information
+- Driver performance
+- Payment methods
+- Delivery timelines
+- Return information
 
+### Data Cleaning & Transformation
 
-## [**Abstract**](docs/documentation.md#abstract)
-A concise summary of your project (2-3 paragraphs):
-- 1 paragraph: Introduction and objectives
-- 1 paragraph: Implementation approach and methods
-- 1 paragraph: Key results and findings
+![Data Cleaning](../images/2.png)
 
-## [**Acknowledgment**](docs/documentation.md#acknowledgment)
-Acknowledge individuals and organizations that supported your project.
+Main preprocessing tasks:
 
-## [**Business Intelligence Project Description and Objectives**](docs/documentation.md#business-intelligence-project-description-and-objectives)
-- What is your project about?
-- What industry or business domain does it address?
-- How will it help the industry/business?
-- What specific business problems are you solving?
-
-## [**Data Research and Acquiring Effort**](docs/documentation.md#data-research-and-acquiring-effort)
-- What data did you search for and why?
-- How did you acquire it? Sources, APIs, Scraping.
-- **Links to raw data sources** (URLs, datasets)
-- Brief description of each data source
-
-## [**Data Description and Understanding**](docs/documentation.md#data-description-and-understanding)
-- **Data Dictionary**: Describe every field you're using and why it matters
-- **Exploratory Data Analysis (EDA)**:
-  - Charts and graphs showing data distribution
-  - Patterns discovered
-  - Correlations and relationships found
-  - Insights relevant to your project objectives
-
-## [**Data Primary Cleaning and Transformation**](docs/documentation.md#data-primary-cleaning-and-transformation)
-Describe all data preparation steps in sequence:
-- Data type conversions
 - Handling missing values
-- Merging datasets
-- Aggregation and appending
-- Any other transformations applied
-
-## [**Data Visualization and Insights**](docs/documentation.md#data-visualization-and-insights)
-- Include relevant charts and describe each one
-- Explain the significance of each visualization
-- Highlight key insights from your charts
-- What patterns do these visualizations reveal?
-
-## [**Dashboard Design & Business Insights**](docs/documentation.md#dashboard-design--business-insights)
-- Showcase your final BI Dashboard
-- Organize by **Business Questions Answered**
-
-For each chart/component:
-```
-Chart [#]: [Title]
-Description: [What does this chart show?]
-Insight Derived: [What does this tell the business? Why is this important?]
-```
-
-Examples:
-- Chart 1: Sales Trend Analysis – Shows growth pattern
-
-![An example of a chart.](images/image-rendered.webp)
-> The chart shows a cat
-
-- Chart 2: Customer Segmentation – Identifies high-value segments
-- Chart 3: Regional Performance – Highlights top/bottom performers
-
-## [**Advanced Analytics and AI Modeling**](docs/documentation.md#advanced-analytics-and-ai-modeling)
-- What type of model did you build? (Clustering, Predictive, Association, Generative AI, forecasting, agents, etc.)
-- What pre built AI models did you use and how?
-- What results were you seeking or what attribute are you predicting?
-- **Model Characteristics**: Such as Accuracy, precision, recall, weights, parameters
-- Include multiple iterations if applicable
-- Explain your findings and model performance
-
-## [**Tools Research and Selection Effort**](docs/documentation.md#tools-research-and-selection-effort)
-- What tools did you evaluate?
-- Which tools did you ultimately choose?
-- Why did you select these tools?
-- How do they support your project?
-
-Examples:
-- Data Analysis: Python, R, SQL
-- Visualization: Tableau, Power BI, Looker
-- Deployment: Streamlit, Fast API, Gradio, Flask, Cloud platforms
-
-## [**Project Deployment Effort – Use Case**](docs/documentation.md#project-deployment-effort-use-case)
-- How will a business user consume this project?
-  - Interactive web dashboard (Streamlit)?
-  - Scheduled reports?
-  - Dashboard
-  - Live API?
-  - Mobile app?
-- Implementation steps in chronological order
-- If you built a prototype, describe deployment process
-- Infrastructure and hosting considerations
-
-## [**Results**](docs/documentation.md#results)
-- Summary of findings (2-3 paragraphs)
-- Most important insights or charts in your opinion
-- Evaluation and interpretation of results
-- Business impact and recommendations
-
-## [**References**](docs/documentation.md#references)
-List all sources cited in your project using a consistent citation format (APA, Chicago, etc.)
+- Standardizing text fields
+- Converting date columns
+- Creating delivery delay indicators
+- Building new analytical features
 
 ---
 
-## Code setup and dependencies Instructions
-Write procedure for setup and running code.
-for example:
-1. Clone the repository: 
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory: 
-   ```bash
-   cd <project-directory>
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application: 
-   ```bash
-   python app.py
-   ```
+## Operations Performance Dashboard
+
+![Operations Dashboard](../images/3.png)
+
+### Key Insights
+
+- Total Orders
+- Total Revenue
+- Success Rate
+- Return Rate
+- On-Time Delivery Rate
+
+### Business Impact
+
+Provides management with a complete operational overview and supports performance monitoring.
 
 ---
 
+## Delay Analysis Dashboard
 
+![Delay Analysis](../images/4.png)
 
+### Key Insights
 
-## Documentation Best Practices
+- Delay by city
+- Delay by driver
+- Delay trends
+- Delivery attempts impact
 
-✅ **Do's:**
-- Write in clear, descriptive language documenting your work effort.
-- Use consistent formatting and headings
-- Include visuals (charts, screenshots, diagrams)
-- Add links to your data sources and tools
-- Update regularly as your project evolves
-- Use version control (git commits with meaningful messages)
+### Business Impact
 
-❌ **Don'ts:**
-- Don't use Word documents – use Markdown (.md) here [Documentation](docs/documentation.md) for project documentation and version control, link main sections of documentation at the readme overview and Table of Content, as shown in the template.
-- Don't commit large data files directly – use `.gitignore` and reference external sources
-- Don't leave sections incomplete – mark as TODO if not ready
-- Don't forget to document your data sources and methodology
+Helps identify bottlenecks and reduce delayed deliveries.
 
 ---
 
-## Flexibility by Project Type
+## Route Optimization Dashboard
 
-**This template is flexible.** Adapt based on your project focus:
+![Route Optimization](../images/5.png)
 
-| Project Type | Emphasis | Key Sections |
-|---|---|---|
-| **Dashboard-Heavy** | Visualization & Design | Sections 8-9 (Dashboard, Visualizations) |
-| **Predictive Analytics** | Advanced Modeling | Section 10 (AI/ML Modeling) |
-| **Data Engineering** | Cleaning & Transformation | Section 7 (Data Prep) |
-| **Business Analysis** | Insights & Recommendations | Sections 5-6, 13 (Data, Results) |
-| **Web Application** | Deployment & Use Cases | Section 12 (Deployment) |
+### Key Insights
 
----
+- Route performance
+- Average delay by route
+- High-risk delivery paths
 
-## Getting Started
+### Business Impact
 
-1. **Fork this repository** to your GitHub account
-2. **Clone your fork**: `git clone <your-fork-url>`
-3. **Create your project directory structure** using the template above
-4. **Start documenting in Markdown** – one `.md` file per major section
-5. **Commit regularly**: `git add . && git commit -m "Add data analysis"` && `git push`
-6. **Important --> Link everything in your main README.md** so it's easy to navigate
+Supports route optimization and faster deliveries.
 
 ---
 
-## Additional Template Files to Create
+## Return Analysis Dashboard
 
-Your students should also create these supporting files:
+![Return Dashboard](../images/6.png)
 
-### `.gitignore` - Prevent committing unnecessary files
-```
-# Data files (if large)
-data/raw/*.csv
-data/raw/*.xlsx
-data/processed/*.parquet
+### Key Insights
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-.venv/
-venv/
+- Failure reasons
+- Return trends
+- Regional return rates
+- Driver return performance
 
-# Notebooks
-.ipynb_checkpoints/
+### Business Impact
 
-# Models
-models/*.pkl
-models/*.joblib
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-```
-
-### `requirements.txt` - Python dependencies
-```
-pandas==2.0.0
-numpy==1.24.0
-matplotlib==3.7.0
-seaborn==0.12.0
-plotly==5.14.0
-scikit-learn==1.3.0
-jupyter==1.0.0
-streamlit==1.25.0
-sqlalchemy==2.0.0
-```
-
-### `docs/SETUP.md` - Environment setup guide
-```
-# Project Setup Guide
-
-## Prerequisites
-- Python 3.8+
-- Git
-- GitHub account
-
-## Installation Steps
-1. Clone your fork: `git clone <your-fork-url>`
-2. Create virtual environment: `python -m venv venv`
-3. Activate: `source venv/bin/activate` (Mac/Linux) or `venv\Scripts\activate` (Windows)
-4. Install dependencies: `pip install -r requirements.txt`
-5. Start Jupyter: `jupyter notebook`
-
-## Data Setup
-1. Download data from sources listed in docs/02_data_research.md
-2. Place raw data in `data/raw/`
-3. Run data cleaning scripts in `notebooks/`
-```
-
-### `docs/EVALUATION_CRITERIA.md` - Grading rubric
-```
-# Evaluation Criteria
-
-| Criterion | Excellent (90-100%) | Good (80-89%) | Satisfactory (70-79%) | Needs Improvement (<70%) |
-|---|---|---|---|---|
-| **Project Definition** | Clear objectives, well-defined problem | Objectives stated, minor clarity issues | Objectives present but vague | Missing or unclear objectives |
-| **Data Research** | Comprehensive sources, well-justified | Good sources, mostly justified | Limited sources, weak justification | Poor data selection |
-| **Data Analysis** | Thorough EDA, insightful findings | Good analysis, clear insights | Basic analysis, some insights | Minimal analysis |
-| **Visualizations** | Professional, insightful, well-labeled | Good quality, mostly clear | Acceptable but basic | Poor quality/unclear |
-| **Dashboard Design** | Intuitive, answers key questions | Good design, mostly effective | Functional but cluttered | Poorly designed |
-| **Advanced Analytics** | Sophisticated models, well-evaluated | Good models, clear methodology | Basic models, limited evaluation | Minimal or missing |
-| **Documentation** | Clear, complete, well-organized | Good documentation, minor gaps | Adequate but some gaps | Incomplete/unclear |
-| **Deployment** | Complete, production-ready | Good implementation plan | Basic implementation | No deployment plan |
-| **Results & Insights** | Significant findings, business value | Good findings, clear implications | Adequate results, limited impact | Minimal results |
-| **Code Quality** | Well-commented, organized, reproducible | Good structure, mostly reproducible | Adequate but messy | Difficult to understand |
-```
+Reduces failed deliveries and improves customer satisfaction.
 
 ---
 
-## Need Help?
+## Risk Analysis Dashboard
 
-- **Markdown Guide**: [GitHub Markdown Documentation](https://guides.github.com/features/mastering-markdown/)
-- **Git Tutorial**: [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-- **BI Tools**: Research and document your tool choices in Section 11
-- **Data Sources**: APIs, UCI ML Repository, Government Open Data, Industry Datasets, Web scraping, etc.
+![Risk Dashboard](../images/7.png)
+
+### Key Insights
+
+- Driver risk analysis
+- Customer risk analysis
+- Lost revenue
+- Regional risk scores
+
+### Business Impact
+
+Supports proactive operational risk management.
 
 ---
 
-**Good luck with your Business Intelligence graduation project!** 
+## Financial & Customer Insights
+
+![Financial Dashboard](../images/8.png)
+
+### Key Insights
+
+- Revenue performance
+- Lost revenue analysis
+- Customer segmentation
+- Customer risk evaluation
+
+### Business Impact
+
+Improves profitability and customer relationship management.
+
+---
+
+## Predictive Analytics
+
+![Prediction Workflow](../images/9.png)
+
+Machine Learning models were developed to predict delivery outcomes and operational risks.
+
+### Models
+
+- Logistic Regression
+- Random Forest
+
+---
+
+## Logistic Regression Results
+
+![Logistic Regression](../images/10.png)
+
+![Logistic Metrics](../images/11.png)
+
+### Performance
+
+- Accuracy: 73.9%
+- Precision: 92%
+- Recall: 72.9%
+
+---
+
+## Random Forest Results
+
+![Random Forest](../images/12.png)
+
+![Random Forest Metrics](../images/13.png)
+
+### Performance
+
+- Accuracy: 77.5%
+- Precision: 91.7%
+- Recall: 76.6%
+
+### Best Model
+
+**Random Forest** achieved the highest predictive performance.
+
+---
+
+## Clustering Analysis
+
+![Clustering Workflow](../images/14.png)
+
+K-Means clustering segmented deliveries into three operational groups.
+
+### Cluster 2 – Stable Deliveries
+
+- Low delays
+- Low return rates
+- Efficient operations
+
+### Cluster 1 – Moderate Risk Deliveries
+
+- Moderate delays
+- Requires closer monitoring
+
+### Cluster 0 – High Risk Deliveries
+
+- High delays
+- High return probability
+- Multiple delivery attempts
+
+---
+
+## Cluster Visualization
+
+![Cluster Distribution](../images/15.png)
+
+![Cluster Analysis](../images/16.png)
+
+The clustering model successfully identified different delivery behaviors and risk levels.
+
+---
+
+## Business Value
+
+This solution enables Fast Man Company to:
+
+- Reduce delays
+- Reduce returns
+- Improve driver performance
+- Optimize routes
+- Increase customer satisfaction
+- Minimize revenue loss
+
+---
+
+# Conclusion
+
+The Smart Logistics Intelligence System demonstrates how Business Intelligence and Artificial Intelligence can transform logistics data into actionable insights.
+
+Through dashboards, predictive analytics, and clustering techniques, Fast Man Company can improve operational efficiency, reduce risks, and support smarter business decisions.****
